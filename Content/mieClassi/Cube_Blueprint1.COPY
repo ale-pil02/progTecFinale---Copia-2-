@@ -1,0 +1,41 @@
+Begin Object Class=/Script/Engine.Blueprint Name="Cube_Blueprint1"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="UserConstructionScript"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="UserConstructionScript"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         FunctionReference=(MemberParent=Class'"/Script/Engine.Actor"',MemberName="UserConstructionScript")
+         NodeGuid=2D454329466C9F9BC944B9A3E281094A
+         CustomProperties Pin (PinId=EA32930B4378A10A9F6F4EB22387BE7B,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      bAllowDeletion=False
+      GraphGuid=D2FCFACF4417E6916F4DF39113DF744C
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      bAllowDeletion=False
+      GraphGuid=A9B36E09467230C1FA89A08BFF206886
+   End Object
+   ParentClass=Class'"/Script/Engine.StaticMeshActor"'
+   BlueprintSystemVersion=2
+   SimpleConstructionScript=SimpleConstructionScript'"Cube_Blueprint1_C:SimpleConstructionScript_0"'
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   FunctionGraphs(0)=EdGraph'"UserConstructionScript"'
+   CategorySorting(0)=""
+   CategorySorting(1)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/MieClassi/Cube_Blueprint1.Cube_Blueprint1:UserConstructionScript,SavedViewOffset=(X=-328.976288,Y=-286.590973),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath=/Game/MieClassi/Cube_Blueprint1.Cube_Blueprint1:EventGraph,SavedViewOffset=(X=-544.247559,Y=-326.191498),SavedZoomAmount=0.500000)
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+   GeneratedClass=BlueprintGeneratedClass'"Cube_Blueprint1_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=AFCBCB5D4C57D3198506199B6C204988
+End Object
